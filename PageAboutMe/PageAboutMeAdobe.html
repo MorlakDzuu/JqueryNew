@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html lang="ru"> 
+  <head>
+    <title>Первая страница на HTML</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fm.revealator.jquery.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="menu_line">
+      <button class="hamburger">&#9776;</button>
+      <button class="cross">
+        <div class="close_icon_line"></div>
+        <div class="close_icon_line"></div>
+      </button>
+      <span class="menu_title">МЕНЮ</span>
+      </div>
+    <div class="header">
+      <ul class="menu">
+        <li class="button"><a href="#aboutMeArea" class="text_of_icon"><i class="fas fa-user">&nbsp;</i>Обо мне</a></li>
+        <li class="button"><a href="#myHobbyArea" class="text_of_icon"><i class="fas fa-heart">&nbsp;</i>Мое хобби</a></li>
+        <li class="button"><a href="#favFilms" class="text_of_icon"><i class="fas fa-video">&nbsp;</i>Любимые фильмы</a></li>
+        <li class="button"><a href="#" id="newFilmForm" class="text_of_icon"><i class="fas fa-plus">&nbsp;</i>Добавить фильм</a></li>
+      </ul>
+    </div>
+    <div class="back">
+      <div class="main_content">
+        <div class="about_me" id="aboutMeArea">
+          <div class="list">
+            <img src='images/me.jpg' alt="Me" class="me_photo revealator-slidedown revealator-once revealator-position-within" />
+            <div class="photo_caption_small revealator-slidedown revealator-once revealator-within">
+              <blockquote class="description">"Можно обеспечить защиту от дурака, но только от неизобретательного."</blockquote>
+              <cite class="author">—Закон Кейсера</cite>
+            </div>
+            <div class="clone_clear"></div>
+            <div class="l_list revealator-slideup revealator-position-within revealator-oncee">
+              <div class="title_of_list">Места учёбы</div>
+              <ul class="simple_list">
+                <li>Школа №8</li>
+                <li>"Инфосфера"</li>
+                <li>Лицей "Инфотех"</li>
+                <li>Дом</li>
+              </ul>
+            </div>
+            <div class="l_list revealator-slideup revealator-position-within revealator-once">
+              <div class="subtitle_of_list">Мои увлечения</div>
+              <ol class="simple_list">
+                <li>Дайвинг</li>
+                <li>Катание на доске</li>
+                <li>Чтение книг</li>
+                <li>Нумизматика</li>
+              </ol>
+            </div>
+          </div>
+          <div class="text_about_me">
+            <div class="photo_caption">
+              <blockquote class="description">"Можно обеспечить защиту от дурака, но только от неизобретательного."</blockquote>
+              <cite class="author">—Закон Кейсера</cite>
+            </div>
+            <h1 class="my_name revealator-slideup revealator-position-within revealator-once">Lapshin Daniil</h1>
+            <div class="clear"></div>
+            <img src='images/line.png' class="line_photo revealator-slideup revealator-position-within revealator-once" alt="Me" />
+            <p class="simple_text revealator-slideup revealator-position-within revealator-once" id="myHobbyArea">
+              Родился  11 июля 2001 года в городе Йошкар-Ола, республика Марий-Эл, Российская Федерация, 
+              материк Евразия, планета Земля, галактика Млечный Путь. В  7 лет пошёл в школу. Учился хорошо, 
+              после 9 класса перешёл в Инфотех, где я сейчас и нахожусь, и где кто-то читает  то, что я написал.
+            </p>
+            <div class="subtitle revealator-slideup revealator-position-within revealator-once">Мое хобби</div>
+            <div class="clear"></div>
+            <p class="simple_text revealator-slideup revealator-position-within revealator-once">
+              Регулярно(нет) хожу в спортзал, по воскресеньям, вторникам и четвергам читаю книги. 
+              В зимнее время катаюсь на сноуборде, в летнее занимаюсь дайвингом и катаюсь на скейте.
+            </p>
+            <div class="link revealator-slideup revealator-position-within revealator-once"><a href="#" id="writeMe" class="text_of_link">Напиши мне </a>&rarr;</div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="films_block">
+      <div class="film_content">
+        <div class="main_films">
+          <div class="subtitle_of_films" id="favFilms">Любимые фильмы</div>
+          <div class="clear"></div>
+          <div class="film revealator-slideleft revealator-position-within revealator-once">
+            <img src='images/run.png' alt="Me" class="photo_of_film" />
+            <div class="name_of_film">Побег из Шоушенка</div>
+            <div class="clear"></div>
+            <p class="text_about_film">
+              Успешный банкир Энди Дюфрейн обвинен в убийстве собственной жены и ее любовника. Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими по обе стороны решетки. Каждый, кто попадает в эти стены, становится их рабом до конца жизни. А чтт дальше, узнаете при просмотре.
+            </p>
+          </div>
+          <div class="film revealator-slideleft revealator-delay1 revealator-position-within revealator-once">
+            <img src='images/space.png' alt="Me" class="photo_of_film" />
+            <div class="clear"></div>
+            <div class="name_of_film">Гравитация</div>
+            <p class="text_about_film">
+               Доктор Райан Стоун, блестящий специалист в области медицинского инжиниринга, отправляется в свою первую космическую миссию под командованием ветерана астронавтики Мэтта Ковальски, для которого этот полет — последний перед отставкой. Но во время, казалось бы, рутинной работы за бортом случается катастрофа. 
+            </p>
+          </div>
+          <div class="film revealator-slideleft revealator-delay2 revealator-position-within revealator-once">
+            <img src='images/astral.png' alt="Me" class="photo_of_film" />
+            <div class="clear"></div>
+            <div class="name_of_film">Астрал</div>
+            <p class="text_about_film">
+              Джош и Рене переезжают со своими детьми в новый дом, но не успевают толком распаковать вещи, как начинаются странные события. Необъяснимо перемещаются предметы, в детской звучат странные звуки… Но в настоящий ужас приходят родители, когда их десятилетний сын Далтон впадает в кому. Все усилия врачей в больнице помочь мальчику безуспешны.
+            </p>
+          </div>
+          <div class="last_film revealator-slideleft revealator-delay3 revealator-position-within revealator-once">
+            <img src='images/quiet-place.jpg' alt="Me" class="photo_of_film">
+            <div class="clear"></div>
+            <div class="name_of_film">Тихое место</div>
+            <p class="text_about_film">
+              Семья с двумя детьми живёт на отдалённой ферме. Казалось бы, жизнь этих людей совершенно не отличается от жизни других таких семей, но они живут в месте, которое наполнено ужасными монстрами, реагирующими на любой звук. Семейство разучило целый комплекс специальных жестов, которые помогают им общаться друг с другом.
+            </p>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="extra_films" id="extraFilms">
+          <div class="film">
+            <img src='images/the-hateful-eight.jpg' alt="Me" class="photo_of_film" />
+            <div class="clear"></div>
+            <div class="name_of_film">Омерзительная восьмёрка</div>
+            <p class="text_about_film">
+              США после Гражданской войны. Легендарный охотник за головами Джон Рут по кличке Вешатель конвоирует заключенную. По пути к ним прибиваются еще несколько путешественников. Снежная буря вынуждает компанию искать укрытие в лавке на отшибе, где уже расположилось весьма пестрое общество: генерал конфедератов, мексиканец, ковбой… И один из них - не тот, за кого себя выдает
+            </p>
+          </div>
+          <div class="film">
+            <img src='images/Rick-and-Morty2.png' alt="Me" class="photo_of_film" />
+            <div class="clear"></div>
+            <div class="name_of_film">Рик и Морти</div>
+            <p class="text_about_film">
+              В центре сюжета - школьник по имени Морти и его дедушка Рик. Морти - самый обычный мальчик, который ничем не отличается от своих сверстников. А вот его дедуля занимается необычными научными исследованиями и зачастую полностью неадекватен. Он может в любое время дня и ночи схватить внука и отправиться вместе с ним в межпространственные приключения с помощью построенной из разного хлама летающей тарелки.
+            </p>
+          </div>
+          <div class="film">
+            <img src='images/wolf.png' alt="Me" class="photo_of_film" />
+            <div class="clear"></div>
+            <div class="name_of_film">Волк с Уолл-стрит</div>
+            <p class="text_about_film">
+              1987 год. Джордан Белфорт становится брокером в успешном инвестиционном банке. Вскоре банк закрывается после внезапного обвала индекса Доу-Джонса. По совету жены Терезы Джордан устраивается в небольшое заведение, занимающееся мелкими акциями. Его настойчивый стиль общения с клиентами и врождённая харизма быстро даёт свои плоды. Он знакомится с соседом по дому Донни.
+            </p>
+          </div>
+          <div class="last_film" id="lastFilm">
+            <img src='images/start.jpg' alt="Me" class="photo_of_film">
+            <div class="clear"></div>
+            <div class="name_of_film">Начало</div>
+            <p class="text_about_film">
+              Кобб – талантливый вор, лучший из лучших в опасном искусстве извлечения: он крадет ценные секреты из глубин подсознания во время сна, когда человеческий разум наиболее уязвим. Редкие способности Кобба сделали его ценным игроком в привычном к предательству мире промышленного шпионажа, но они же превратили его в извечного беглеца и лишили всего, что он когда-либо любил.
+            </p>
+          </div>
+          <div id="newFilms" class="clear"></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="button_of_film_margin" id="moreFilmsButton">
+        <div class="button_film revealator-zoomout revealator-delay1 revealator-within">
+          <div class="text_of_button_film">Все фильмы</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="text_of_footer">Daniil Lapshin production@@@</div>    
+    </div>
+    <div class="form" id="contact_form">
+      <div class="close_icon closeContactModal">
+        <div class="close_icon_line"></div>
+        <div class="close_icon_line"></div>
+      </div>
+      <form name="contact_form" method="post" action="" id="contactForm" onsubmit="return false" class="form_block">
+        <div class="form_title">Напиши мне</div>
+        <div class="clear"></div>
+        <span class="form_subtitle">Ваше имя&nbsp;</span><span class="form_star">*</span>
+        <input class="username input_form_subtitle validate_contact" name="contact_name" type="text" />
+        <span class="form_subtitle">Ваш email&nbsp;</span><span class="form_star">*</span>
+        <input class="useremail input_form_subtitle validate_contact" name="contact_email" type="text" />
+        <label class=”country”>
+          <span class="form_from_subtitle">Откуда вы?</span>
+          <select name=”music” class="input_form_subtitle country">
+            <option value=”rus”>Россия</option>
+            <option value=”as”>Азербайджан</option>
+            <option value=”ukr”>Украина</option>
+          </select>
+        </label>
+        <div class="clear"></div>
+        <div class="form_subtitle">Ваш пол</div>
+        <div class="clear"></div>
+        <div class="form_radio_block">
+          <label><input id="male" type="radio" name="test" checked value="1" /><span class="form_radio">Мужской</span></label>
+          <label><input id="female" type="radio" name="test" value="2" /><span class="form_radio">Женский</span></label>
+        </div>
+        <div class="clear"></div>
+        <span class="form_yourname_subtitle">Ваше сообщение</span>
+        <textarea class="form_text input_form_subtitle" name=”contact_about_me”></textarea>
+        <input type="submit" value="Отправить" name="send" class="text_of_button_film button_send form_button_margin" />
+      </form>    
+    </div>
+    <div class="form" id="new_film_form">
+      <div class="close_icon closeNewFilmModal">
+        <div class="close_icon_line"></div>
+        <div class="close_icon_line"></div>
+      </div>
+      <form name="newfilm_form" method="post" action="" onsubmit="return false" class="form_block" id="filmForm">
+        <div class="form_title">Добавить фильм</div>
+        <div class="clear"></div>
+        <span class="form_subtitle">URL картинки&nbsp;</span><span class="form_star">*</span>
+        <input class="filmurl input_form_subtitle validate_newfilm" name="url" type="text" />
+        <span class="form_subtitle">Название фильма&nbsp;</span><span class="form_star">*</span>
+        <input class="filmname input_form_subtitle validate_newfilm" name="name" id="newfilm_name" type="text" />
+        <div class="clear"></div>
+        <span class="form_yourname_subtitle">Описание фильма&nbsp;</span><span class="form_star">*</span>
+        <textarea name="description" class="newfilm_form_text input_form_subtitle validate_newfilm"></textarea>
+        <input type="submit" value="Добавить" name="send" class="text_of_button_film button_send form_button_margin" />
+      </form>    
+    </div>
+    <div id="close" class="form_close closeContactModal closeNewFilmModal"></div>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/fm.revealator.jquery.js"></script>
+    <script src="js/goodCode.js"></script>
+  </body>
+</html> 

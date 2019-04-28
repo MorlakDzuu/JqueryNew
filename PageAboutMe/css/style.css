@@ -1,0 +1,972 @@
+a
+{
+    color: #15a98b;
+    text-decoration: none;
+}
+
+.header
+{
+    top: 0;
+    position: fixed; 
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    background-color: #ffffff;
+    z-index: 3;
+}
+
+.hamburger
+{
+    background: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 10px;
+    left: 13px;
+    background: #333333
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 4;
+}
+
+.menu_line
+{
+    display: none;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 4;
+}
+
+.cross
+{
+    display: none;
+    background: none;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    cursor: pointer;
+    outline: none;
+    height: 24px;
+    width: 24px;
+    z-index: 4;
+}
+
+.menu_title
+{
+    font: 19px/0 Georgia;
+    position: absolute;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    left: 55px;
+    top: 27px;
+    z-index: 4;
+}
+
+.menu
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.button
+{
+    display: flex;
+    float: left;
+    width: auto;
+    height: 50px;
+    list-style-type: none;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.button:hover
+{ 
+    display: flex;
+    float: left;
+    width: auto;
+    height: 50px;
+    background-color: #15a98c;
+    list-style-type: none;
+}
+.button:hover a
+{ 
+    color: #f5f5f5;
+}
+
+.text_of_icon
+{
+    margin: auto 21px;
+    float: left;
+    font: 19px/19px Georgia;
+    color: #333333;
+    text-align: left;
+}
+
+.back
+{
+    margin-top: 50px;
+    background: url(../images/background.png) no-repeat;
+}
+
+.main_content
+{
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.my_name
+{
+    float: left;
+    margin-top: 79px;
+    font:bold 48px/48px Open Sans, sans-serif;
+    color: #333333;
+    padding-bottom: 25px;
+}
+
+.me_photo
+{
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    margin-bottom: 46px; 
+    float: left;
+}
+
+.list
+{
+    padding-top: 210px;
+    float: left;
+    width: 330px;
+}
+
+.l_list
+{
+    padding-bottom: 47px;
+}
+
+.photo_caption
+{
+    float: left;
+    width: 100%; 
+    padding-top: 41px;
+}
+
+.photo_caption_small
+{
+    float: left;
+    width: 100%; 
+    display: none;
+}
+
+.description
+{
+    font: italic 28px/42px Georgia;
+    text-align: left;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.author
+{
+    font: bold 16px/46px Open Sans, sans-serif;
+    color: #f5f5f5;
+}
+
+.title_of_list
+{
+    font: bold 24px/24px Open Sans, sans-serif;
+    margin-bottom: 15px;
+    color: #15a98c;
+}
+
+.subtitle_of_list
+{
+    font: bold 24px/24px Open Sans, sans-serif;
+    padding-top: 47px;
+    margin-bottom: 15px;
+    color: #15a98c;
+}
+
+.simple_list
+{
+    font: 19px/36px Georgia;
+    width: 67%;
+    margin-left: 20px;
+    color: #555555;
+    text-align: left;
+}
+
+.simple_text
+{
+    font: 19px/32px Georgia;
+    width: 100%;
+    color: #555555;
+    text-align: left;
+    margin-bottom: 56px;
+}
+
+.about_me
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.clone_clear
+{
+    clear: both;
+}
+
+.text_about_me
+{
+    margin-left: 60px;
+    margin-top: 195px;
+    float:left;
+    width: 48%;
+}
+
+.subtitle
+{
+    float: left;
+    margin-bottom: 33px;
+    font: 36px/42px Open Sans, sans-serif;
+    color: #333333;
+}
+
+.subtitle_of_films
+{
+    float: left;
+    margin-top: 44px;
+    margin-bottom: 33px;
+    font: 36px/42px Open Sans, sans-serif;
+    color: #333333;
+}
+
+.line_photo
+{
+    padding-bottom: 40px;
+}
+
+.link
+{
+    font: 19px/1.684 Georgia;
+    color: #15a98c;
+    text-align: left;
+}
+
+.text_of_link
+{
+    
+    padding-top: 56px;
+    text-decoration: underline;
+}
+
+.photo_of_film
+{
+    float:left;
+    width: 285px;
+    height: 190px;
+    border-radius: 5px;
+}
+
+.last_film
+{
+    float: left;
+    width: 285px;
+}
+
+.film
+{
+    margin-right: 20px;
+    width: 285px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.film_content
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_films
+{
+    height: auto;
+    float: left;
+    padding-bottom: 55px;
+}
+
+.extra_films
+{
+    float: left;
+    display: none;
+    opacity: 0;
+    padding-bottom: 55px;
+}
+
+.film_content
+{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.films_block
+{
+    background-color: #f9f9f9;
+    width: 100%;
+    margin-top: 52px;
+    height: auto;
+}
+
+.name_of_film
+{
+    float: left;
+    font: bold 22px/22px Open Sans;
+    padding-top: 28px;
+    margin-bottom: 21px;
+    width: 285px;
+    color: #333333;
+    text-align: left;
+}
+
+.text_about_film
+{
+    font: 16px/1.75 Georgia;
+    color: #555555;
+    text-align: left;
+    width: 278px;
+    height: auto;
+}
+
+.button_of_film_margin
+{
+    padding-bottom: 60px;
+}        
+ 
+ .button_film 
+ {
+    display: flex;
+    border-radius: 5px;
+    background-color: #15a98c;
+    margin: 0 auto;
+    width: 220px;
+    height: 50px;
+    cursor: pointer;
+}
+
+ .button_send 
+ {
+    border-radius: 5px;
+    background-color: #15a98c;
+    margin: 0 auto;
+    width: 220px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.button_film:hover
+{
+    background-color: #098d71;
+}
+
+.button_send:hover
+{
+    background-color: #098d71;
+}
+
+.text_of_button_film
+{
+    margin: auto;
+    font: 19px/32px Georgia;
+    color: #f5f5f5;
+}
+
+.form_title
+{
+    font: 36px/36px Myriad Pro, sans-serif;
+    color: #333333;
+    float: left;
+    padding-bottom: 31px;
+}
+
+.close_icon
+{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top:43px;
+    right:25px;
+    cursor: pointer;
+}
+
+.close_icon_line
+{
+    background: #333333;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+}
+
+.close_icon_line:first-child
+{
+    transform: rotate(45deg);
+}
+
+.close_icon_line:last-child
+{
+    transform: rotate(-45deg);
+}
+
+.form
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 660px;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: none;
+    z-index: 6;
+    transform: translate(-50%, -50%);
+}
+
+.form_close_button
+{
+    color: #464646;
+    float: right;
+    font-size: 30px;
+    margin-right: 30px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.form_close
+{
+    cursor: pointer;
+}
+
+#close 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display:none;
+    background: grey;
+    z-index: 5;
+}
+
+.form_block
+{
+    width: 540px;
+    padding: 50px 60px;
+}
+
+.form_subtitle
+{
+    float: left;
+    font: 20px/1.8 Open sans, sans-serif;  
+    color: #333333;
+}
+
+
+.input_form_subtitle
+{
+    float: left;
+    font: 20px/1.6 Open sans, sans-serif;  
+    color: #333333;
+    padding-left: 3%;
+}
+
+.form_yourname_subtitle
+{
+    float: left;
+    font: 20px/36px Open sans, sans-serif;  
+    color: #333333;
+}
+
+.form_from_subtitle
+{
+    float: left;
+    font: 20px/38px Open sans, sans-serif;  
+    color: #333333;
+}
+
+.form_star
+{
+    font: 20px/1.6 Open sans, sans-serif;  
+    color: #fc0404;
+    float: left;
+}
+
+.username 
+{
+    width: 520px;
+    height: 46px;
+    border-width: 2px;
+    border-color: #a6a6a6;
+    border-style: solid;
+    border-radius: 3px;
+    margin-bottom: 23px;
+}
+
+.useremail 
+{
+    width: 520px;
+    height: 46px;
+    border-width: 2px;
+    border-color: #a6a6a6;
+    border-style: solid;
+    border-radius: 3px;
+    margin-bottom: 23px;
+}
+
+.filmurl 
+{
+    width: 520px;
+    height: 46px;
+    border-width: 2px;
+    border-color: #a6a6a6;
+    border-style: solid;
+    border-radius: 3px;
+    margin-bottom: 23px;
+}
+
+.filmname 
+{
+    width: 520px;
+    height: 46px;
+    border-width: 2px;
+    border-color: #a6a6a6;
+    border-style: solid;
+    border-radius: 3px;
+    margin-bottom: 23px;
+}
+
+.country {
+    width: 539px;
+    height: 49px;
+    border-width: 2px;
+    border-color: #a6a6a6;
+    border-style: solid;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+
+.form_text
+{
+    width: 520px;
+    border-width: 2px;
+    border-color: #a6a6a6;
+    border-style: solid;
+    border-radius: 3px;
+    height: 146px;
+}
+
+.newfilm_form_text
+{
+    width: 520px;
+    border-width: 2px;
+    border-color: #a6a6a6;
+    border-style: solid;
+    border-radius: 3px;
+    height: 146px;
+}
+
+textarea
+{
+    resize: none;
+}
+
+.input:focus
+{
+    border-color: #15a98c;
+}
+
+.form_text:focus
+{
+    border-color: #15a98c;
+}
+
+.newfilm_form_text:focus
+{
+    border-color: #15a98c !important;
+}
+
+.form_radio 
+{
+    font: 18px/18px Open sans, sans-serif;
+    color: #333333;
+    margin-left: 10px;
+    margin-right: 36px;
+}
+
+.form_button_margin
+{
+    margin-bottom: 50px;
+    float: left;
+    margin-top: 50px;
+}
+
+.form_radio_block
+{
+    padding-top: 10px;
+    padding-bottom: 38px;
+}
+
+.username:focus
+{
+    border-color: #15a98c !important;
+}
+
+.filmname:focus 
+{
+     border-color: #15a98c !important;
+}
+
+.filmurl:focus 
+{
+     border-color: #15a98c !important;
+}
+
+.useremail:focus
+{
+    border-color: #15a98c !important;
+}
+
+.country:focus
+{
+    border-color: #15a98c;
+}
+
+.footer
+{
+    display: flex;
+    height: 70px;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.text_of_footer
+{
+    margin: auto;
+    font: 16px/2 Georgia;
+    color: #555555;
+    text-align: middle;
+}
+
+@media screen and (max-width: 1330px) 
+{
+    .main_content 
+    {
+        width: 90%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and (max-width: 1139px) 
+{
+    .photo_caption
+    {
+        display: none;
+    }
+    .line_photo
+    {
+        display: none;
+    }
+    .my_name
+    {
+        color: #f5f5f5;
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 1058px) 
+{
+    .text_about_me
+    {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 20px;
+        float: left;
+        width: 90%;
+    }
+    
+    .about_me
+    {
+        width: 100%;
+    }
+
+    .menu
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .my_name
+    {
+        color: #333333;
+        padding-bottom: 25px;
+    }
+
+    .list
+    {
+        float:left;
+        width: 100%;
+    }
+
+    .photo_caption_small
+    {
+        float: left;
+        width: 52%;
+        margin-left: 5%; 
+        display: block;
+    }
+
+    .l_list
+    {
+        float: left;
+        padding-top: 30px;
+        margin-left: 5%;
+        padding-bottom: 10px;
+    }
+
+    .subtitle_of_list
+    {
+        font: bold 24px/24px Open Sans, sans-serif;
+        padding-top: 0;
+        margin-bottom: 15px;
+        color: #15a98c;
+    }
+
+    .line_photo
+    {
+        display: block;
+    }
+
+    .clone_clear
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 909px) 
+{
+    .photo_caption_small
+    {
+        display: none;
+    }
+    .clone_clear
+    {
+        display: block;
+    }
+    .l_list
+    {
+        margin-left: 0;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 497px) 
+{
+    .l_list
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1330px)
+{
+    .last_film
+    {
+        display: none;
+    }
+    .film_content
+    {
+    margin: 0 auto;
+    width: 915px;
+    } 
+}
+
+@media screen and (max-width: 1033px)
+{
+    .last_film
+    {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .film_content
+    {
+      margin: 0 auto;
+      width: 610px;
+    } 
+
+    .text_of_link
+    {
+        margin-top: 26px;
+        padding-top: 26px;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 650px)
+{
+    .film_content
+    {
+        margin: 0 auto;
+        width: 285px;
+    } 
+    .film
+    {
+        margin-right: 0;
+        width: 285px;
+        float: left;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) 
+{
+    .form
+    {
+        width: 85%;
+        border-color: #c9c9c9;
+        border-style: solid;
+        border-radius: 10px;
+    }
+    .filmurl
+    {
+        width: 85%;
+    }
+    .filmname
+    {
+        width: 85%;
+    }
+    .username 
+    {
+        width: 85%;
+    }
+    .useremail 
+    {
+        width: 85%;
+    }
+    .country 
+    {
+        width: 89%;
+    }
+    .newfilm_form_text
+    {
+        width: 86%;
+    }
+    .form_text
+    {
+        width: 86%;
+    }
+    .form_block
+    {
+        width: 90%;
+        border-color: #15a98c;
+        border-radius: 3px;
+        padding-left: 10%;
+        border-style: solid;
+    }
+}
+
+@media screen and (min-width: 763px) 
+{
+    .menu
+    {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 762px) 
+{
+    .button i
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 667px) 
+{
+    .header
+    {
+        top: 50px;
+    }
+    .back
+    {
+        margin-top: 0;
+    }
+    .menu_line
+    {
+        display: block;
+    }
+    .hamburger
+    {
+        display: block;
+    }
+    .menu
+    {
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+    .text_of_icon
+    {
+        width: 100%;
+        margin: auto 21px;
+        float: left;
+        font: 19px/19px Georgia;
+        color: #333333;
+        text-align: center;
+    }
+    .button
+    {
+        display: fixed;
+        float: left;
+        width: 100%;
+        height: 50px;
+        list-style-type: none;
+    }
+
+    .button:hover
+    { 
+        display: fixed;
+        float: left;
+        width: 100%;
+        height: 50px;
+        background-color: #f0f0f0;
+        color: #333333;
+        text-decoration-color: #333333;
+        list-style-type: none;
+    }
+    .button:hover a
+    { 
+        color: #333333;
+    }
+}
+
+@media screen and (max-width: 845px) 
+{
+    .menu
+    {
+        width: 100%;
+    }
+}
